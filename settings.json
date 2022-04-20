@@ -1,0 +1,43 @@
+{
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.shell.windows":"C:\\Windows\\System32\\wsl.exe",
+    // "terminal.integrated.shellArgs.windows": "-NoLogo",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.unicodeVersion": "11",
+    "workbench.colorTheme": "One Monokai",
+    "cph.defaultLanguage": "cpp",
+    "cph.argsCpp": "-std=c++17 -DIcry -Wall -Wextra -O2 -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -D_FORTIFY_SOURCE=2",
+    "code-runner.executorMap": {
+        "cpp": "g++ -std=c++17 -DLOCAL $fileName  -w && ./a.out",
+        "c": "gcc -lm $fileName && ./a",
+        "python": "python -u $fileName",
+        "java": "javac $fileName && java $fileNameWithoutExt",
+    },
+    "code-runner.customCommand": "g++ -std=c++17 -DLOCAL $fileName  -w  && ./a.out < in.txt",
+    "code-runner.preserveFocus": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.runInTerminal": true,
+    "python.showStartPage": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.tabSize": 6,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    
+    // vim stuff
+    "vim.easymotion": true,
+    "vim.surround": true,
+    "vim.handleKeys":{
+        "<C-c>": false
+    },
+    "explorer.confirmDelete": false,
+    "editor.largeFileOptimizations": false,
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true
+    "editor.fontSize": 16
+    "terminal.integrated.fontSize": 14
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+}
